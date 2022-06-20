@@ -1,0 +1,115 @@
+.carousel-item{
+    margin-top: 30px;
+    background: no-repeat scroll center scroll;
+    background-size: cover;
+}
+.carousel-inner{
+ margin-top: -28px;
+}
+// Servicios que ofrece la pagina
+#services{
+    padding: 80px 0;
+    margin-top: 80px;
+    .service-img{
+        width: 80px;
+        margin-top: 40px;
+    }
+    .services{
+        padding: 20px;
+    
+    }
+    .services h4{
+        @include text-design(20px, black, 500);
+        padding: 5px;
+        margin-top: 25px;
+    }
+    }
+    .services p {
+        font-size: 15px;
+        font-family: $fontMain;
+    }
+
+    #services .btn-primary{
+        @extend button;
+        box-shadow: none;
+        border: none;
+        border-radius: 20px;
+        background-color:map-get($map:$Colors, $key:'once' );
+    }
+    #services .btn-primary:hover{
+        background:map-get($map:$Colors, $key:'diez' );
+        transition: all 0.4s;
+    }
+    .btn-primary {
+        color: #fff;
+       background-color: #0d6efd;
+       border-color: #0d6efd;
+   }
+    
+
+// Titulos con subrayado
+
+.tittle{
+    font-family: 20px;
+}
+.tittle::before{
+    content: '';
+    background: $mainColor;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px );
+}
+
+// Por que elegirnos a nosotros
+#about-us{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: map-get($map:$Colors, $key:'cinco' );
+    margin-top: 40px;
+    ul {
+        margin-left: 20px;
+    }
+
+    ul li{
+        margin: 10px 0;
+    }
+    img{
+        margin-left: 178px;
+        margin-top: 30px;
+        
+    }
+    .about-tittle{
+        font-size: 23px;
+        font-weight: 600;
+        margin-top: 8%;
+    }
+    .about-list{
+        list-style-type:disc;
+        align-content: center;
+    
+    }
+    
+}
+// Iconos de Redes Sociales
+#social-media{
+   
+    padding: 100px 0;
+    p{
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    .social-icons img{
+        width: 60px;
+        transition: 0.5s;
+    }
+    .social-icons a:hover img{
+        transform: translateY(-1);
+    }
+}
+
+
+

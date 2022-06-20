@@ -1,0 +1,62 @@
+.body-error-404{
+    margin: 0px;
+    margin: 0px;
+    background-image: url("../img/bg.png");
+    background-size: 350px;
+    background-position: center;
+}
+*{
+    box-sizing: border-box ;
+}
+
+.page-not-found img{
+height: 300px;
+background-color:rgba(255,255,255,0.50);
+}
+.page-not-found{
+    position: absolute;
+    left: 50%;
+    top:60%;
+    transform: translate(-50%, -60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.page-not-found h1{
+    @include text-design(2rem,#3b3a39,700);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    margin-top: 20px
+}
+.page-not-found p{
+ @include text-design(1rem,#808080,300);
+ width: 60%;
+ margin-top:30px;
+ text-align: center;
+ margin: 5px;
+ 
+}
+.page-not-found a{
+color: #637eff;
+font-weight: 600;
+text-decoration: underline;
+}
+.page-not-found button{
+    width: 140px;
+    height: 40px;
+    margin: 10px;
+    background-color: #2f2e41;
+    color: map-get($map:$Colors, $key:'siete' );
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+}
+.page-not-found button :hover{
+    background-color: #637eff;
+    transition: all ease 0.2s;
+}

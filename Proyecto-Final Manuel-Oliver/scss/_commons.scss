@@ -1,0 +1,30 @@
+//Main Color
+$mainColor:#fffb00;
+
+// Utilizando Mixin
+@mixin flex($justify, $aling) {
+    display: flex;
+    justify-content: $justify;
+    align-content: $aling;
+}
+@mixin text-design( $size, $color, $weight) {
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+}
+
+//Utilizando Map
+$Colors:(
+    'uno':#fffb00,
+    'dos':rgb(238, 255, 0),
+    'tres':#f2f608,
+    'cuatro':rgb(246, 84, 105),
+    'cinco': #f8f9fa,
+    'seis':rgb(246, 243, 246),
+    'siete': #fff,
+    'ocho':rgb(255, 255, 255),
+    'nueve': #f3ef00,
+    "diez":#0d6efd,
+    "once": #edea2d,
+    );
+

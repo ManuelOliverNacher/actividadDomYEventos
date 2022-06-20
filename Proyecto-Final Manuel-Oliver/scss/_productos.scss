@@ -1,0 +1,41 @@
+.btnc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 53px;
+    width: 40%;
+    color: black;
+    border: none;
+    outline: none;
+    background: map-get($map:$Colors, $key:'cuatro' );
+    cursor: all 0.4s;
+}
+.btnc:hover{
+   background:map-get($map:$Colors, $key:'dos' );
+    transition: all 0.4s;
+}
+.zoom-n-rotate{
+    border-radius: 0;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.zoom-n-rotate img{
+    transition: transform .5s ease-in-out;
+}
+.zoom-n-rotate:hover img{
+    transform: scale(1.5);
+}
+h1{
+    font-weight: 500;
+    font-size: 2.6rem;
+
+}
+.product{
+    background: map-get($map:$Colors, $key:'seis' );
+}
+#footer-email-btn, .btn-primary {
+    height: 40px;
+    border-radius: 30px;
+}

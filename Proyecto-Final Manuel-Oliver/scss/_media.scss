@@ -1,0 +1,233 @@
+/* Ajuste NavBar img */
+@media(max-width: 374px) {
+    nav img{
+        height: 115px;
+    }
+}
+/* Ajuste Home (About us img) */
+
+@media (min-width:768px) and (max-width:853px){
+    #about-us img{
+        margin-left: 103px;
+        margin-top: 25px;
+        
+    }
+}
+@media (min-width:854px) and (max-width:900px){
+    #about-us img{
+        margin-left: 103px;
+        margin-top: 25px;
+        
+    }
+}
+
+/* Footer */
+@media  (min-width: 280px) and (max-width:425px)  {
+    #footer-email {
+        width: 250px;
+    }
+    footer h4 {
+        font-size: 20px;
+    }
+    .footer-heading a {
+        font-size: 14px;
+    }   
+    }
+    @media screen and (max-width: 860px){
+        footer{
+            color: #fff;
+            margin: auto;
+            box-shadow: 0 0 3px #000;
+            text-align: center;
+            width: 100%;
+            height: auto;
+            display: grid;
+    
+        }
+        .footer-container{
+            display: flex;
+            flex-direction: column;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 1em 0;
+            display: grid; 
+        } 
+        
+        .footer-heading a{
+            color: black;
+            text-decoration: none;
+            font-size: 24px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            
+        }
+    
+        footer h4{
+            font-size: 16px;
+            color: black;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+            font-weight: 500;
+            position:relative;
+        
+        }
+    
+        footer h4{
+            font-size: 20px;
+        }
+    }
+     /* NOSOTROS */
+
+     @media (min-width: 280px) and (max-width:959px) {
+        .gran-contenedor-flex {
+            display:flex;
+            flex-direction: column;
+            padding: 3em;
+            gap:2em;
+            justify-content: center;
+            align-items: center;
+          }
+          .imagen-nosotros {
+            width: 280px;
+            height: 300px;
+            
+          }
+          
+          .texto {
+            width:60%;  
+            font-size:100%;
+            
+          }
+          .texto h3 {
+            margin-bottom:1.5em;
+            margin-top: 60px;
+            display: flex;
+            justify-content: center;
+          }
+          .texto2{
+              margin-top: 30px;
+          }
+          .btn-nosotros{
+
+            margin-left: auto;
+            margin-right: auto;
+          }
+       }
+       @media (min-width: 280px) and (max-width:425px){
+
+        .texto {
+            width:90%;  
+            font-size:95%;
+            
+          }
+          .texto h3 {
+            margin-bottom:1.5em;
+            margin-top: 60px;
+            display: flex;
+            justify-content: center;
+          }
+          .texto2{
+              margin-top: 30px;
+       }
+       
+
+       }
+       
+
+    /*  CONTACT US */
+
+@media(min-width: 700px) {
+    
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        box-sizing: border-box;
+        
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+    }
+
+    /* Ajuste pagina Error 404*/
+    @media(max-width:900px){
+        .page-not-found img{
+            height: 180px;
+        }
+        .page-not-found p{
+            width: 100%;
+        }
+    }
+    @media (max-width:600px){
+        .page-not-found {
+            width: 80%;
+        }
+        .page-not-found img{
+            height: 120px;
+        }
+        .page-not-found h1{
+            font-size: 1.4rem;
+            .page-not-found p{
+                width: 60%;
+            }
+        }
+
+    }
+
+     /* Ajuste pagina Productos imagenes principio*/
+     @media (min-width: 280px) and (max-width:425px){
+
+        .img-productos{
+      width: 80%;
+      justify-content: center;
+      margin: auto;
+      margin-top: 10px;
+        }
+        .card {
+            border: none;
+     }
+     .btnc {
+       
+        height: 33px;
+     }
+    
+     }
+     @media (min-width: 426px) and (max-width:768px){
+
+        .img-productos{
+      width: 70%;
+      justify-content: center;
+      margin: auto;
+      margin-top: 10px;
+        }
+        .card {
+            border: none;
+     }
+     .btnc {
+       
+        height: 43px;
+     }
+    
+     }
+     @media (min-width: 769px) and (max-width:991px){
+
+        .img-productos{
+      width: 60%;
+      justify-content: center;
+      margin: auto;
+      margin-top: 10px;
+        }
+        .card {
+            border: none;
+     }
+     .btnc {
+       
+        height: 43px;
+     }
+    
+     }
+

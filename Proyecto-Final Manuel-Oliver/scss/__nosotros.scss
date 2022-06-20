@@ -1,0 +1,31 @@
+
+.gran-contenedor-flex {
+    @include flex (center,center);
+    padding: 3em;
+    gap:2em;
+    
+  }
+  
+  .imagen-nosotros {
+    width: 400px;
+    height: 400px;
+    
+  }
+  
+  .imagen-nosotros img {
+    width: 100%;
+  }
+  .texto {
+    width:70%;  
+    font-size:110%;
+    
+  }
+  .texto h3 {
+    margin-bottom:1.5em;
+  }
+  .texto2{
+      margin-top: 20px;
+  }
+  .color{
+    background: map-get($map:$Colors, $key:'dos' );
+  }

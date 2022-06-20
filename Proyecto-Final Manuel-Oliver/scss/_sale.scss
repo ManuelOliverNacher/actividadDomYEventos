@@ -1,0 +1,12 @@
+.discount{
+    height: 50px;
+    width: 50px;
+    background: map-get($map:$Colors, $key:'cuatro' );
+    border-radius: 50%;
+    padding: 12px 5px;
+    color: white;
+    position: absolute;
+    top: 7%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
